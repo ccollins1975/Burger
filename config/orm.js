@@ -1,6 +1,6 @@
 // Import MySQL connection.
 var connection = require("../config/connection.js");
-const { delete } = require("../../Solved/config/orm.js");
+
 
 // Helper function for SQL syntax.
 // Let's say we want to pass 3 values into the mySQL query.
@@ -88,7 +88,7 @@ var orm = {
 
       cb(result);
     });
-  }
+  },
   delete: function(table,condition,cb) {
     var queryString = "DELETE FROM" + table;
     queryString += " WHERE ";
@@ -104,5 +104,5 @@ var orm = {
   }
 };
 
-// Export the orm object for the model (cat.js).
+
 module.exports = orm;
