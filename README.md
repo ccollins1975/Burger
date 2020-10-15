@@ -4,6 +4,8 @@
 
 ## Description
  This app will help you pick a burger and eat it.
+ [Demo Burger app here](https://floating-hamlet-41181.herokuapp.com)
+ 
  ## Table of Contents
 
  * [Installation](#installation)
